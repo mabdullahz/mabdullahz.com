@@ -15,7 +15,7 @@ export default function Home({ posts }) {
             Hello 👋, I'm Abdullah Z.
           </h1>
           <p className="text-lg leading-7 text-gray-400">
-            Senior Software Engineer: Designing, Developing, and Delivering Digital Excellence 
+            Senior Software Engineer: Designing, Developing, and Delivering Digital Excellence
           </p>
         </div>
       </div>

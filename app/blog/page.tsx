@@ -26,8 +26,8 @@ export default function BlogPage() {
     //   pagination={pagination}
     //   title="All Posts"
     // />
-    <h1 className="flex py-50 justify-center text-3xl font-extrabold leading-9">
-            Coming soon, stay tuned!
+    <h1 className="py-50 flex justify-center text-3xl font-extrabold leading-9">
+      Coming soon, stay tuned!
     </h1>
   )
 }
