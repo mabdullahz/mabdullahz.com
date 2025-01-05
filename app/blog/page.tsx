@@ -20,11 +20,14 @@ export default function BlogPage() {
   }
 
   return (
-    <ListLayout
-      posts={posts}
-      initialDisplayPosts={initialDisplayPosts}
-      pagination={pagination}
-      title="All Posts"
-    />
+    // <ListLayout
+    //   posts={posts}
+    //   initialDisplayPosts={initialDisplayPosts}
+    //   pagination={pagination}
+    //   title="All Posts"
+    // />
+    <h1 className="flex py-50 justify-center text-3xl font-extrabold leading-9">
+            Coming soon, stay tuned!
+    </h1>
   )
 }

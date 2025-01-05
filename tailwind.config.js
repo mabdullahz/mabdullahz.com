@@ -12,7 +12,6 @@ module.exports = {
     './layouts/**/*.{js,ts,tsx}',
     './data/**/*.mdx',
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       lineHeight: {
@@ -22,11 +21,12 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ['var(--font-roboto_flex)', ...fontFamily.sans],
       },
       colors: {
         primary: colors.pink,
         gray: colors.gray,
+        rebeccapurple: '#663399',
       },
       zIndex: {
         60: '60',
