@@ -24,6 +24,7 @@ module.exports = {
         sans: ['var(--font-roboto_flex)', ...fontFamily.sans],
       },
       colors: {
+        background: colors.stone,
         primary: colors.pink,
         gray: colors.gray,
         rebeccapurple: '#663399',

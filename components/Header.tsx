@@ -22,14 +22,14 @@ const Header = () => {
             {/* <Logo /> */}
             <Image
               alt={'Image title'}
-              src={'/static/images/logo.png'}
+              src={'/static/images/avatar.png'}
               className="object-contain object-center"
               width={50}
               height={50}
             />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden h-6 text-2xl font-semibold sm:block">
+            <div className="hidden h-6 text-2xl font-semibold text-gray-100 sm:block">
               {siteMetadata.headerTitle}
             </div>
           ) : (
@@ -38,14 +38,14 @@ const Header = () => {
         </div>
       </Link>
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
-        <div className="no-scrollbar hidden max-w-40 items-center space-x-4 overflow-x-auto sm:flex sm:space-x-6 md:max-w-72 lg:max-w-96">
+        <div className="no-scrollbar hidden items-center space-x-4 overflow-x-auto sm:flex sm:space-x-6">
           {headerNavLinks
             .filter((link) => link.href !== '/')
             .map((link) => (
               <Link
                 key={link.title}
                 href={link.href}
-                className="block font-medium text-gray-100 hover:text-primary-400"
+                className="block font-medium text-gray-100 hover:font-bold"
               >
                 {link.title}
               </Link>
